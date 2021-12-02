@@ -232,7 +232,8 @@ class UsersDB(object):
         return org_id
 
     def _unpack_user_info(self, dn, attr):
-        out = {'dn': dn, 'id': self._user_id(dn, attr)}
+        out = {'dn': dn, 'id': self._user_id(dn, attr),
+               'uid': self._user_id(dn, attr)}
         for name, ldap_name in self.user_schema.iteritems():
             if ldap_name in attr:
                 # some have more, e.g. multiple orgs in "o" property, use join

@@ -1,5 +1,6 @@
 1.2.3-ispra (unreleased)
 ------------------------
+* add uid in unpack_user_info [dumitval]
 
 1.2.2-ispra (2021-11-23)
 ------------------------
