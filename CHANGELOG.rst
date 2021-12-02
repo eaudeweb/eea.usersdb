@@ -1,4 +1,7 @@
-1.2.3-ispra (unreleased)
+1.2.4-ispra (unreleased)
+------------------------
+
+1.2.3-ispra (2021-12-02)
 ------------------------
 * add uid in unpack_user_info [dumitval]
 
